@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
 	socklen_t	len;
 	struct	sockaddr_in address;
 	int	result;
-	char ch = 'A';
 	char	buff[1024]="GET /index.html HTTP/1.0\r\n\r\n";
 
 
